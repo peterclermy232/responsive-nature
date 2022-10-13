@@ -9,7 +9,7 @@ User.create([
     profile_image: "https://avatars.githubusercontent.com/u/77429137?v=4",
     intro: "Architectural Designer turned Creative Developer/Product Designer",
     website: "https://takashi-honzawa.com/",
-    github: "https://github.com/taka-2628"
+    github: "https://github.com/peterclermy232"
   },
   {
     username: "th",
