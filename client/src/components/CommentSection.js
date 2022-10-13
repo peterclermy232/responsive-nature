@@ -13,7 +13,7 @@ function CommentSection( { selected, comments, currentUser, setCurrentUser, user
     const scrollableUl = scrollable.current;
     scrollableUl.scrollTop = scrollableUl.scrollHeight;
   }, []);
-
+//
   /* DELETE COMMENT */
   function onDeleteComment(id){
     const updatedComments = comments.filter(comment => comment.id !== id);
