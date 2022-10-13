@@ -36,7 +36,7 @@ function CommentForm( { selected, currentUser, comments, projects, setProjects }
       setProjects(updatedProjects);
     }
   }
-//
+
   return (
     <form id="comment-form" onSubmit={handleSubmit}>
       <textarea 
