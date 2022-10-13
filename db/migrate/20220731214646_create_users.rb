@@ -7,7 +7,6 @@ class CreateUsers < ActiveRecord::Migration[7.0]
       t.text :intro
       t.string :website
       t.string :github
-      t.string
       t.datetime :created_at
       t.datetime :updated_at
     end
