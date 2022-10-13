@@ -1,7 +1,7 @@
 import React from "react";
 
 import NavBar from "./sidebar/NavBar";
-//import Filter from "./sidebar/Filter";
+import Filter from "./sidebar/Filter";
 
 function Sidebar( { genres, technologies, currentUser, setCurrentUser } ){
   return (
