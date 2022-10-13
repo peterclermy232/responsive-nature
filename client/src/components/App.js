@@ -13,7 +13,7 @@ import Project from './Project';
 import Submit from "./Submit";
 import Signup from "./Signup";
 import Login from "./Login";
-//
+
 function App() {
   const [ projects, setProjects ] = useState([]);
   const [ users, setUsers ] = useState([]);
