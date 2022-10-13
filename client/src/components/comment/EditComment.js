@@ -5,7 +5,7 @@ function EditComment( { comment, handleEdit }){
   
   function handleEditFormSubmit(e, id){
     e.preventDefault();
-//
+
     fetch(`/comments/${id}`, {
       method: "PATCH",
       headers: {
