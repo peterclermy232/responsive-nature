@@ -4,7 +4,7 @@ puts "🌱 Seeding data..."
 puts "Seeding users..."
 User.create([
   {
-    username: "taka-2628",
+    username: "John-Omega",
     password: "takataka",
     profile_image: "https://avatars.githubusercontent.com/u/77429137?v=4",
     intro: "Architectural Designer turned Creative Developer/Product Designer",
