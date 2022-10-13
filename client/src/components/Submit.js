@@ -38,7 +38,7 @@ function Submit( { genres, technologies, currentUser, setCurrentUser, projects, 
         currentUser ? 
         <ProjectForm genres={genres} technologies={technologies} projects={projects} setProjects={setProjects} currentUser={currentUser} /> : 
         <div id="before-uploading">
-          <h2>Please login before you upload your project nice..</h2>
+          <h2>Please login before you upload your project ..</h2>
 
           <div className="login-signup-container">
             <form onSubmit={handleSubmit}>
