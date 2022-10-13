@@ -14,7 +14,7 @@ function Signup( { setCurrentUser } ){
   const [errors, setErrors] = useState([]);
 
   const navigate = useNavigate();
-  heelooe
+  
 
   function handleSubmit(e){
     e.preventDefault();  
