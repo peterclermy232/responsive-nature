@@ -14,7 +14,7 @@ function Grid({ data, setSelected } ){
   function hyphenateTitle(title){
     return title.replace(/\s/g, "-").toLowerCase();
   }
-
+///
   const webProjects = data.map((project) => {
     const url = hyphenateTitle(project.title)
     
