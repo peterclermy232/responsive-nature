@@ -43,6 +43,7 @@ function Signup( { setCurrentUser } ){
       }
     });
   }
+  
 
   return (
     <div id="signup">
