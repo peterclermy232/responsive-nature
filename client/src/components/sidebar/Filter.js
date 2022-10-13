@@ -1,5 +1,5 @@
 import React from "react";
-//
+
 function Filter( { genres, technologies } ){
   
   const genreList = genres.map((genre) => {
