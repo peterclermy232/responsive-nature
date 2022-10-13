@@ -31,7 +31,7 @@ function Submit( { genres, technologies, currentUser, setCurrentUser, projects, 
       }
     });
   }
-test
+
   return (
     <div id="submit">
       { 
