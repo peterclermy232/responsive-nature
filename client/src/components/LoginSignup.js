@@ -55,7 +55,7 @@ function LoginSignup( { setCurrentUser, users } ){
     .then((r) => r.json())
     .then((user) => setCurrentUser(user))
   }
-i
+
   return (
     <>{
       (selectedForm == "login") ? 
