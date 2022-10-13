@@ -11,7 +11,7 @@ function NavBar( { currentUser, setCurrentUser } ){
       }
     });
   }
-
+//
   return (
     <nav>
       <NavLink
