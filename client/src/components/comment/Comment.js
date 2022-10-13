@@ -15,7 +15,7 @@ function Comment( { comment, currentUser, onDeleteComment, onEditComment} ){
     });
     onDeleteComment(id);
   }
-
+//
   function handleEdit(updatedComment) {
     onEditComment(updatedComment);
     setEditOn(false);
