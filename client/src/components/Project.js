@@ -11,7 +11,7 @@ function Project( { selected, currentUser, setCurrentUser, users, projects, setP
   const techBadges = selected.technologies.map((tech) => {
     return(<li key={tech.id}>{tech.technology}</li>)
   })
-iport
+
   const comments = selected.comments;
 
   return (
